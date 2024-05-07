@@ -5,7 +5,7 @@ app.set("view engine", "ejs");
 app.use(express.urlencoded({ extended: false }));
 
 app.get("/", (req, res) => {
-  res.json({ msg: "okay" });
+  res.json({ msg: "edit text from container" });
 });
 
 app.get("/ejs", (req, res) => {
